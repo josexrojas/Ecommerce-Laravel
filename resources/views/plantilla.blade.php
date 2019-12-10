@@ -1,0 +1,5 @@
+@include('layouts.head')
+@include('layouts.app')
+@yield('carrousel')
+@yield('contenido')
+@include('layouts.footer')
