@@ -1,4 +1,4 @@
-@extends('plantilla')
+@extends('layouts.plantilla')
 @section('contenido')
   <br>
   <br>

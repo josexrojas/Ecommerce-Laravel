@@ -1,4 +1,4 @@
-@extends('plantilla')
+@extends('layouts.plantilla')
 @section('carrousel')
   <div class="bd-example">
   <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">

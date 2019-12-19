@@ -3,7 +3,7 @@
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-dark bg-dark shadow-sm">
             <div class="container">
-                <a class="navbar-brand" href="{{ url('/homeoficial') }}">
+                <a class="navbar-brand" href="{{ url('/') }}">
                     USADO!
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,7 +20,6 @@
                       <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="{{url('/productsindex')}}">Ver Productos</a>
                         <a class="dropdown-item" href="{{url('products/create')}}">Crear</a>
-                        <a class="dropdown-item" href="{{url('products/edit')}}">Editar/Eliminar</a>
                       </div>
                       </li>
                       <li class="nav-item">
